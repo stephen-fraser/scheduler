@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
+    "install": "^0.13.0",
     "normalize.css": "^8.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -15,6 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "cypress": "cypress open",
     "coverage": "npm test -- --coverage --watchAll=false"
   },
   "browserslist": {
@@ -35,7 +37,7 @@
     "@testing-library/react": "^8.0.4",
     "@testing-library/react-hooks": "^1.1.0",
     "babel-loader": "8.1.0",
-    "cypress": "^9.7.0",
+    "cypress": "^12.17.4",
     "jest-websocket-mock": "^1.5.0",
     "mock-socket": "^8.0.5",
     "prop-types": "^15.8.1",
